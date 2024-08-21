@@ -4,7 +4,7 @@ class Calculator {
     this.currentOperandTextElement = currentOperandTextElement
     this.clear()
   }
-
+//clear function
   clear() {
     this.currentOperand = ''
     this.previousOperand = ''
