@@ -19,7 +19,7 @@ class Calculator {
     if (number === '.' && this.currentOperand.includes('.')) return
     this.currentOperand = this.currentOperand.toString() + number.toString()
   }
-
+//chooseOperation Function()
   chooseOperation(operation) {
     if (this.currentOperand === '') return
     if (this.previousOperand !== '') {
